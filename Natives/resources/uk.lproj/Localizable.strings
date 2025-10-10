@@ -21,8 +21,8 @@
 "Snapshot" = "Знімки";
 "Releases" = "Випуски";
 "Unstable" = "Нестабільна";
-"Old-beta" = "Старі бета";
-"Old-alpha" = "Старі альфа";
+"Old-beta" = "Історичні бета";
+"Old-alpha" = "Історичні альфа";
 
 // Custom controls
 "Copy" = "Копія";
@@ -36,7 +36,7 @@
 "In menu" = "У меню";
 
 "custom_controls.button_edit.forward_lock" = "Передній замок";
-"custom_controls.button_edit.name" = "Ім'я";
+"custom_controls.button_edit.name" = "Назва";
 "custom_controls.button_edit.size" = "Розмір";
 "custom_controls.button_edit.mapping" = "Кнопки";
 "custom_controls.button_edit.orientation" = "Орієнтація";
@@ -83,7 +83,7 @@
 
 "login.error.username.outOfRange" = "Ім'я користувача повинно бути не менше 3 символів і не більше 16";
 
-"login.alert.field.username" = "Ім'я користувача";
+"login.alert.field.username" = "Ім'я гравця";
 
 "login.jit.checking" = "Перевірка JIT";
 "login.jit.enabled" = "JIT було увімкнено";
@@ -132,7 +132,7 @@
 "Settings" = "Налаштування";
 
 "preference.section.general" = "Загальні налаштування";
-"preference.section.video" = "Налаштування графіки";
+"preference.section.video" = "Налаштування відео та звуку";
 "preference.section.footer.video" = "Автоматичне промальовування дозволяє Amethyst вибрати найкращий варіант на основі версії Minecraft. Зменшення роздільної здатности зменшує навантаження на ГП для кращої продуктивности.";
 "preference.section.control" = "Налаштування керування";
 "preference.section.debug" = "Налаштування налагодження інтерфейсу";
@@ -268,7 +268,7 @@
 "preference.title.debug_hide_home_indicator" = "Сховати кнопку «Додому»";
 "preference.detail.debug_hide_home_indicator" = "Це вимкне блокування кнопки «Додому». Ви повинні використовувати Guided Access, щоб ховати та блокувати кнопку «Додому» за один раз.";
 
-"preference.profile.title.name" = "Ім'я";
+"preference.profile.title.name" = "Назва";
 "preference.profile.title.loader_type" = "Тип завантажувача";
 "preference.profile.title.loader_vendor" = "Постачальник завантажувача";
 "preference.profile.title.loader_version" = "Версія завантажувача";
