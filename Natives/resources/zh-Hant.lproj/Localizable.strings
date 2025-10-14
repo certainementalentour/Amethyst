@@ -132,7 +132,7 @@
 "Settings" = "設定";
 
 "preference.section.general" = "一般設定";
-"preference.section.video" = "視聽設定";
+"preference.section.video" = "顯示與音訊設定";
 "preference.section.footer.video" = "自動渲染器允許 Amethyst 根據 Minecraft 版本選擇最佳選項。降低解析度可以減少 GPU 負載，從而取得更佳效能。";
 "preference.section.control" = "自訂控制鍵";
 "preference.section.debug" = "UI 除錯設定";
