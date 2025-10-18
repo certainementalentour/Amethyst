@@ -209,7 +209,6 @@
 "preference.detail.allocated_memory" = "يتحكم في كمية الذاكرة المعطاة لـ Minecraft";
 "preference.warn.allocated_memory" = "وبسبب القيود في نظام التشغيل نفسه، قد يؤدي هذا الخيار إلى عدم الاستقرار في هذه القيم وفي القيم الأعلى.";
 "preference.detail.custom_env" = "هذا الخيار قيد الإنشاء. قم بإنشاء وتحرير مخصص_env.txt في غضون ذلك.";
-
 "preference.title.debug_skip_wait_jit" = "تخطي مربع حوار \"في انتظار JIT\"";
 "preference.detail.debug_skip_wait_jit" = "هذا لا يسمح لك بتشغيل دون JIT، بدلاً من ذلك تخطي فحص تصحيح الأخطاء هذا، لأن التحقق أخفق بعض حالات توقف الجلبريك.";
 "preference.title.debug_ipad_ui" = "تشغيل واجهة الايباد";
