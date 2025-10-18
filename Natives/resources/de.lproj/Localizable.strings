@@ -231,7 +231,6 @@ der Minecraft-Version zu wählen. Verringerte Auflösung reduziert die Arbeitsla
 "preference.detail.allocated_memory" = "Legt fest, wie viel RAM Minecraft gegeben wird";
 "preference.warn.allocated_memory" = "Aufgrund von Einschränkungen des Betriebssystems kann diese Option zu Instabilität bei diesem und höheren Werten führen. Sei vorsichtig.";
 "preference.detail.custom_env" = "Diese Option befindet sich in Entwicklung. Erstelle und bearbeite in der Zwischenzeit custom_env.txt.";
-
 "preference.title.debug_skip_wait_jit" = "Überspringe den \"Warten auf JIT\"-Dialog";
 "preference.detail.debug_skip_wait_jit" = "Dies ermöglicht es dir nicht, ohne JIT zu starten. Stattdessen wird die Debuggerprüfung übersprungen, da die Überprüfung bei bestimmten Jailbreaks fehlschlägt.";
 "preference.title.debug_ipad_ui" = "Aktiviere das iPadOS UI";
