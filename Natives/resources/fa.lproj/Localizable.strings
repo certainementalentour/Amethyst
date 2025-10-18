@@ -166,7 +166,6 @@
 "preference.title.allocated_memory" = "میزان رم اختصاص یافته(MB)";
 "preference.detail.allocated_memory" = "میزان مموری اختصاص یافته به ماینکرفت را کنترل می‌کند";
 "preference.warn.allocated_memory" = "با توجه به محدودیت های موجود در خود سیستم عامل، این گزینه ممکن است باعث ناپایداری در مقادیر این و بالاتر شود. با توجه ادامه بدهید.";
-
 "preference.title.debug_skip_wait_jit" = "از گفتگوی \"در انتظار JIT\" رد شوید";
 "preference.detail.debug_skip_wait_jit" = "این به شما اجازه نمی‌دهد بدون JIT راه‌اندازی کنید، در عوض از بررسی دیباگر صرفنظر می‌شود، زیرا بررسی در برخی از جیلبریک‌ها با شکست مواجه می‌شود.";
 "preference.title.debug_ipad_ui" = "رابط کاربری iPadOS را باز کنید";
