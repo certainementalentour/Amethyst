@@ -256,7 +256,6 @@
 "preference.warn.allocated_memory" = "Karena limitasi dari operating systemnya, opsi ini bisa membuat permainan tidak stabil dengan isi yang tinggi. Lanjut dengan perhatian.";
 "preference.title.custom_env" = "Variabel sistem";
 "preference.detail.custom_env" = "Opsi ini masih dalam pengembangan. Selagi menunggu, buat dan edit file custom_env.txt.";
-
 "preference.title.debug_skip_wait_jit" = "Lewati dialog \"Menunggu JIT\"";
 "preference.detail.debug_skip_wait_jit" = "Ini tidak memperbolehkan anda untuk meluncur tanpa JIT, alih-alih ini melewati cek debugger, karena ceknya gagal di jailbreak tertentu.";
 "preference.title.debug_ipad_ui" = "Gunakan UI iPadOS";
