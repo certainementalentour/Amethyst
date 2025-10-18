@@ -177,7 +177,6 @@
 "preference.title.allocated_memory" = "Memoria allocata (MB)";
 "preference.detail.allocated_memory" = "Controlla quanta memoria dedicare a Minecraft";
 "preference.warn.allocated_memory" = "A causa delle limitazioni nel sistema operativo stesso, questa opzione può causare instabilità con questi valori e superiori. Procedere con cautela.";
-
 "preference.title.debug_skip_wait_jit" = "Salta l'avviso \"In attesa di JIT\"";
 "preference.detail.debug_skip_wait_jit" = "Questo non consente di avviare senza JIT, ti consente di saltare il controllo del debugger perché questo controllo fallisce su alcuni jailbreak.";
 "preference.detail.debug_ipad_ui" = "Utilizza la UI esclusiva di iPad (avvisi, tastiera, etc.) se abilitato o la UI di iPhone se disabilitato.";
