@@ -44,6 +44,7 @@ extern NSNotificationName UIPresentationControllerPresentationTransitionWillBegi
 @interface UIWindow(global)
 + (UIWindow *)mainWindow;
 + (UIWindow *)externalWindow;
+- (UIViewController *)visibleViewController;
 @end
 
 @protocol _UIPointerInteractionDriver<NSObject>
