@@ -183,6 +183,7 @@
 "preference.title.renderer.debug.auto" = "Auto: gl4es atau ANGLE";
 "preference.title.renderer.debug.gl4es" = "holy gl4es - mengeksport OpenGL 2.1";
 "preference.title.renderer.debug.angle" = "ANGLE (1.17+) - mengeksport OpenGL 3.2 (Profil Teras, terhad)";
+"preference.title.renderer.debug.mg" = "MobileGlues (1.17+) - mengeksport OpenGL 4.0, UJI KAJI";
 "preference.title.renderer.debug.zink" = "Zink (Mesa 21.0) - mengeksport OpenGL 4.1";
 
 "preference.detail.renderer" = "Ubah enjin pemapar OpenGL yang digunakan. Zink dinyahdayakan buat sementara waktu pada iOS 16 dan lebih baru untuk mendiagnosis isu.";
@@ -259,6 +260,8 @@
 "preference.detail.custom_env" = "Pilihan ini sedang dalam pembinaan. Cipta dan sunting custom_env.txt buat sementara ini.";
 
 "preference.title.debug_universal_script_jit" = "Gunakan Skrip StikDebug Sejagat";
+"preference.title.debug_always_attached_jit" = "Kekalkan terpasang pada StikDebug";
+"preference.detail.debug_always_attached_jit" = "Dayakan ini jika mod anda memerlukan pemuatan .dylib semasa masa jalan. Apabila ini dihidupkan, PiP StikDebug tidak sepatutnya ditutup semasa permainan. Skrip Universal perlu didayakan";
 "preference.title.debug_skip_wait_jit" = "Langkau dialog \"Menunggu JIT\"";
 "preference.detail.debug_skip_wait_jit" = "Ini tidak membenarkan anda melancarkan tanpa JIT, sebaliknya ini melangkau semakan penyahpepijat, kerana semakan ini gagal pada jailbreak tertentu.";
 "preference.title.debug_ipad_ui" = "Buka kunci UI iPadOS";
