@@ -1,13 +1,6 @@
 name: Development build
 
 on:
-  pull_request:
-    branches-ignore:
-      - 'l10n_main'
-    types: [opened, reopened]
-  push:
-    branches-ignore:
-      - 'l10n_main'
   workflow_dispatch:
 
 jobs:
@@ -19,8 +12,39 @@ jobs:
           - platform: 2
             platform_name: ios
     
-    runs-on: J316sAP
+    runs-on: macos-14
     steps:
+
+      - name: Show available Xcode and select a suitable one
+        run: |
+          echo "Available apps in /Applications (matching Xcode*):"
+          ls /Applications | grep -E "Xcode(.+)?\.app"
+          # Prefer Xcode_16, then Xcode_15, then /Applications/Xcode.app
+          if [ -d "/Applications/Xcode_16.app" ]; then
+            echo "Selecting /Applications/Xcode_16.app"
+            sudo xcode-select -s /Applications/Xcode_16.app/Contents/Developer
+          elif [ -d "/Applications/Xcode_15.app" ]; then
+            echo "Selecting /Applications/Xcode_15.app"
+            sudo xcode-select -s /Applications/Xcode_15.app/Contents/Developer
+          elif [ -d "/Applications/Xcode.app" ]; then
+            echo "Selecting /Applications/Xcode.app"
+            sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+          else
+            echo "No preinstalled Xcode found under /Applications that matches the search. Leaving system default."
+          fi
+          xcodebuild -version
+
+      - name: install GNU Make
+        run: |
+          brew update
+          brew install make
+
+      - name: install Java JDK 8
+        run: brew install --cask temurin@8
+
+      - name: install ldid
+        run: brew install ldid
+
       - name: Remove work folders
         run: |
           echo "before"
